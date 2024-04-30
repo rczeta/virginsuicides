@@ -39,9 +39,9 @@ function draw() {
   textFont(font);
   textSize(50);
   text("We knew", width / 6, height / 7.25);
-  text("that the", width / 4.5, height / 4.85);
-  text("girls were", width / 3.75, height / 3.75);
-  text("our twins", width / 3.25, height / 3);
+  text("that the", width / 4.5, height / 5);
+  text("girls were", width / 3.75, height / 3.85);
+  text("our twins", width / 3.25, height / 3.1);
 
   text(typed1, width - width / 4, height / 7.25);
 
@@ -54,7 +54,7 @@ function draw() {
     }
   }
 
-  text(typed2, width - width / 3, height / 4.85);
+  text(typed2, width - width / 3, height / 5);
 
   if (typed2.length < message2.length) {
     let nextChar2 = message2.charAt(typed2.length);
@@ -65,7 +65,7 @@ function draw() {
     }
   }
 
-  text(typed3, width - width / 2.6, height / 3.75);
+  text(typed3, width - width / 2.6, height / 3.85);
 
   if (typed3.length < message3.length) {
     let nextChar3 = message3.charAt(typed3.length);
@@ -76,7 +76,7 @@ function draw() {
     }
   }
 
-  text(typed4, width - width / 2.25, height / 3);
+  text(typed4, width - width / 2.25, height / 3.1);
 
   if (typed4.length < message4.length) {
     let nextChar4 = message4.charAt(typed4.length);

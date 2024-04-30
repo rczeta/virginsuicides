@@ -38,7 +38,7 @@ function draw() {
     image(mind1, -width / 14, height - height / 1.2);
     image(mind2, width - width / 1.7, height - height / 1.2);
 
-    text(typed1, width / 17, height - height / 4.7);
+    text(typed1, width / 17, height - height / 4.2);
 
     if (typed1.length < message1.length) {
       let nextChar1 = message1.charAt(typed1.length);
@@ -47,7 +47,7 @@ function draw() {
         typed1 += nextChar1;
       }
     }
-    text(typed2, width - width / 2.75, height - height / 4.7);
+    text(typed2, width - width / 2.75, height - height / 4.2);
 
     if (typed2.length < message2.length) {
       let nextChar2 = message2.charAt(typed2.length);

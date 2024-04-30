@@ -27,11 +27,11 @@ function draw() {
   text(
     "that the girls were really              in disguise.",
     width / 5,
-    height - height / 12
+    height - height / 18
   );
 
   if (mouseIsPressed) {
-    text(typed, width - width / 2.45, height - height / 25);
+    text(typed, width - width / 2.45, height - height / 32);
 
     if (typed.length < message.length) {
       let nextChar = message.charAt(typed.length);

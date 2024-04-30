@@ -24,32 +24,32 @@ function draw() {
   text(
     "from'The Virgin Suicides' by Jeffrey Eugenides.",
     width / 5.5,
-    height / 3.75
+    height / 3.85
   );
   text(
     "This project follows the journey of the Lisbon",
     width / 5.5,
-    height / 2.5
+    height / 2.6
   );
   text(
     "sisters through their suburbian suffocation and ",
     width / 6,
-    height / 2.16
+    height / 2.25
   );
   text(
     "eventual suicides, observed by the neighboring boys.",
     width / 7,
-    height / 1.9
+    height / 1.95
   );
   text(
     "Through their naive male gaze, we get a glimpse ",
     width / 6,
-    height / 1.515
+    height / 1.58
   );
   text(
     "into the indifference of the boys as they watch the",
     width / 6.5,
-    height / 1.38
+    height / 1.43
   );
-  text("girls descend into self-destruction.", width / 4, height / 1.28);
+  text("girls descend into self-destruction.", width / 4, height / 1.32);
 }
