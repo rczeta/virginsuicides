@@ -36,7 +36,7 @@ function draw() {
     if (typed.length < message.length) {
       let nextChar = message.charAt(typed.length);
 
-      if (frameCount % 5 === 0) {
+      if (frameCount % 10 === 0) {
         typed += nextChar;
       }
     }
