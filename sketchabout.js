@@ -32,7 +32,7 @@ function draw() {
     height / 2.4
   );
   text(
-    "sisters through their suburbian suffocation and ",
+    "sisters through their suburban suffocation and ",
     width / 7,
     height / 2.15
   );
