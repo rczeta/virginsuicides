@@ -32,13 +32,13 @@ function draw() {
   textSize(50);
 
   if (mouseIsPressed) {
-    text("and that they knew", width / 6.5, height / 7.25);
+    text("and that they knew", width / 6.5, height / 6.25);
 
-    text("though we couldn't", width - width / 2.65, height / 7.25);
+    text("though we couldn't", width - width / 2.3, height / 6.25);
     image(mind1, -width / 14, height - height / 1.2);
     image(mind2, width - width / 1.7, height - height / 1.2);
 
-    text(typed1, width / 17, height - height / 4.2);
+    text(typed1, width / 17, height - height / 4.45);
 
     if (typed1.length < message1.length) {
       let nextChar1 = message1.charAt(typed1.length);
@@ -47,7 +47,7 @@ function draw() {
         typed1 += nextChar1;
       }
     }
-    text(typed2, width - width / 2.75, height - height / 4.2);
+    text(typed2, width - width / 2.75, height - height / 4.45);
 
     if (typed2.length < message2.length) {
       let nextChar2 = message2.charAt(typed2.length);
@@ -57,9 +57,9 @@ function draw() {
       }
     }
   } else {
-    text("and that they knew", width / 6.5, height / 7.25);
+    text("and that they knew", width / 6.5, height / 6.25);
 
-    text("though we couldn't", width - width / 2.65, height / 7.25);
+    text("though we couldn't", width - width / 2.3, height / 6.25);
 
     image(closedmind1, -width / 14, height - height / 1.2);
     image(closedmind2, width - width / 1.7, height - height / 1.2);

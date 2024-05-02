@@ -25,8 +25,8 @@ function draw() {
   fill("black");
   textFont(font);
   textSize(50);
-  text("that they understood love", width / 6, height / 7.25);
-  text("and even death.", width - width / 3, height / 7.25);
+  text("that they understood love", width / 6, height / 6.25);
+  text("and even death.", width - width / 2.65, height - height / 14);
 }
 function mousePressed() {
   tint(255, fade);

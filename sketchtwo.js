@@ -35,7 +35,7 @@ function draw() {
       text(message.charAt(i), x, y);
     }
 
-    text(typed1, width / 3.25, height / 7.25);
+    text(typed1, width / 3.25, height / 6.25);
 
     // If the length of the typed text is less than the message length,
     // continue typing by adding the next character of the message

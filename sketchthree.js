@@ -37,7 +37,7 @@ function draw() {
   fill("black");
   textFont(font);
   textSize(50);
-  text("and how you ended up knowing", width / 6, height / 7.25);
+  text("and how you ended up knowing", width / 6, height / 6.25);
 
   image(currentImage1, 0, height / 9);
   image(currentImage2, width / 3, height / 9);
@@ -51,7 +51,7 @@ function draw() {
   //ellipse(width - width / 3, height - height / 4, 200, 200);
 
   fill("black");
-  text(typed, width / 2, height / 3.85);
+  text(typed, width / 2.25, height / 3.85);
 
   if (typed.length < message.length) {
     let nextChar = message.charAt(typed.length);

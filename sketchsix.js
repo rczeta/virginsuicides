@@ -23,15 +23,15 @@ function draw() {
   fill("black");
   textFont(font);
   textSize(50);
-  text("We knew, finally,", width / 6, height / 7.25);
+  text("We knew, finally,", width / 6, height / 6.25);
   text(
     "that the girls were really              in disguise.",
-    width / 5,
-    height - height / 18
+    width / 6,
+    height - height / 14
   );
 
   if (mouseIsPressed) {
-    text(typed, width - width / 2.45, height - height / 32);
+    text(typed, width - width / 2.25, height - height / 32);
 
     if (typed.length < message.length) {
       let nextChar = message.charAt(typed.length);

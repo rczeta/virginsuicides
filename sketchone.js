@@ -25,11 +25,11 @@ function draw() {
   fill("black");
   textFont(font);
   textSize(50);
-  text("We felt the", width / 6, height / 7.25);
-  text("of being a girl.", width - width / 3.25, height - height / 9);
+  text("We felt the", width / 6, height / 6.25);
+  text("of being a girl.", width - width / 2.75, height - height / 14);
 
   if (mouseIsPressed) {
-    text(typed, width / 2.5, height / 7.25);
+    text(typed, width / 2.5, height / 6.25);
 
     if (typed.length < message.length) {
       let nextChar = message.charAt(typed.length);
