@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  image(bgimg, 0, 0);
+  image(bgimg, 0, 0, windowWidth, windowHeight);
 
   fill("black");
   textFont(font);

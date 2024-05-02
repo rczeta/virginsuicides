@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  image(bgimg, 0, 0);
+  image(bgimg, 0, 0, windowWidth, windowHeight);
 }
 
 function draw() {

@@ -16,7 +16,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  image(bgimg, 0, 0);
+  image(bgimg, 0, 0, windowWidth, windowHeight);
   image(house, width / 6, height / 12);
   fade = 0;
 }

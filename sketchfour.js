@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  image(bgimg, 0, 0);
+  image(bgimg, 0, 0, windowWidth, windowHeight);
   image(fullface1, 100, 300); // Display at full opacity
   let dx = mouseX + fullface1.width / 1000 - offset;
   offset += dx * easing;
