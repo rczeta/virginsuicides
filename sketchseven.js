@@ -28,7 +28,7 @@ function draw() {
   text("that they understood love", width / 6, height / 6.25);
   text("and even death.", width - width / 2.65, height - height / 14);
 }
-function mousePressed() {
+function keyPressed() {
   tint(255, fade);
   image(deathhouse, width / 6, height / 12);
   image(fire, 0, 0);
